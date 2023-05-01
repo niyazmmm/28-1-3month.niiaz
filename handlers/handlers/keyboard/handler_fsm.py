@@ -2,7 +2,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-from database.bot_db import sql_command_insert
+from hw4.bot_db import sql_command_insert
 from config import bot, ADMINS
 from keyboards.clien_kb import direction_markup, submit_markup, cancel_markup
 
