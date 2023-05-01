@@ -1,4 +1,4 @@
-from database.bot_db import sql_command_all, sql_command_delete
+from parser.bot_db import sql_command_all, sql_command_delete
 from config import bot, dp
 from aiogram import types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup

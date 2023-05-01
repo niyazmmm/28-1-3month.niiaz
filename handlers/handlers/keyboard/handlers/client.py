@@ -1,7 +1,7 @@
 import random
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import datetime
-from database.bot_db import sql_command_random, sql_command_all
+from parser.bot_db import sql_command_random, sql_command_all
 from keyboards.clien_kb import direction_markup
 
 
