@@ -1,8 +1,8 @@
-from parser.bot_db import sql_command_all, sql_command_delete
-from config import bot, dp
+from pars.parser import sql_command_all, sql_command_delete
+from config import bot
 from aiogram import types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from aiogram import Bot, Dispatcher
+from aiogram import Dispatcher
 
 
 async def delete_data(message: types.Message):
